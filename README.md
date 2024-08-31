@@ -25,6 +25,8 @@ remotes::install_github("crazycapivara/h3-r")
 install.packages("igraph")
 install.packages("sf")
 ```
-## Source files
-
+## Source files and description of algorithm
+functions in the R/ folder support the main.R script containing the algorithm. 
+The Core_H3BR_function.R source file loads in the main function, which takes a dataframe containing H310 indexes with attributes and activity, and returns a Preferred Neighbour Matrix (PNMx) containing the H310 with a group membership corresponding to the neighbours it should merge with to create a region meeting threshold. So far, the threshold is set to 10 in main.R but future updates will allow for threshold selection when running the functions.
+The iteration_functions.R source file contains all the functions necessary to the iterative process: if some groups remain under the threshold, the process loops and disbands these groups to reattribute their H310s into neighbourhing groups above threshold. 
 
