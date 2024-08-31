@@ -1,5 +1,5 @@
 # H3BR
-Data-driven regionalisation algorithm built from h3 indexing
+Data-driven regionalisation algorithm built from h3 indexing (h3 R bindings found here: https://github.com/crazycapivara/h3-r)
 
 Paper detailing the methodology, published in Geographical Analysis: https://doi.org/10.1111/gean.12406
 
