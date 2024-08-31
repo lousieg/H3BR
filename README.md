@@ -21,7 +21,7 @@ You can install these packages using the following commands:
 install.packages("tidyverse")
 install.packages("tibble")
 install.packages("data.table")
-install.packages("h3")
+remotes::install_github("crazycapivara/h3-r")
 install.packages("igraph")
 install.packages("sf")
 
