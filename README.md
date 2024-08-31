@@ -11,7 +11,7 @@ The current version of the algorithm is exploratory and was developed in the con
 
 The following R packages are required to run this project:
 
-- `tidtverse` and `data.table`: for data manipulation
+- `tidtverse`, `tibble` and `data.table`: for rapid data manipulation
 - `h3`: for rapid indexing of space using h3, the atomic unit base for the regionalisation process
 - `igraph`: for graph-related operations
 - `sf`: for spatial operations (final merge of polygons)
@@ -19,10 +19,11 @@ You can install these packages using the following commands:
 
 ```r
 install.packages("tidyverse")
+install.packages("tibble")
 install.packages("data.table")
 install.packages("h3")
 install.packages("igraph")
 install.packages("sf")
-install.packages("tibble")
+
 
 
