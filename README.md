@@ -11,13 +11,18 @@ The current version of the algorithm is exploratory and was developed in the con
 
 The following R packages are required to run this project:
 
-- `dplyr`: for data manipulation
+- `tidtverse` and `data.table`: for data manipulation
+- `h3`: for rapid indexing of space using h3, the atomic unit base for the regionalisation process
 - `igraph`: for graph-related operations
-- `ggplot2`: for data visualization
-
+- `sf`: for spatial operations (final merge of polygons)
 You can install these packages using the following commands:
 
 ```r
-install.packages("dplyr")
+install.packages("tidyverse")
+install.packages("data.table")
+install.packages("h3")
 install.packages("igraph")
-install.packages("ggplot2")
+install.packages("sf")
+install.packages("tibble")
+
+
