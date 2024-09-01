@@ -34,4 +34,4 @@ So far, the threshold is set to 10 in main.R, and the process is nested with MSO
 
 The iteration_functions.R source file contains all the functions necessary to the iterative process: if some groups remain under the threshold, the process loops and disbands these groups to reattribute their H310s into neighbourhing groups above threshold. 
 
-*see https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies for MSOAs
+*see https://www.ons.gov.uk/methodology/geography/ukgeographies/censusgeographies/census2021geographies for MSOAs.
